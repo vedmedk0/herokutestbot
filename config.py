@@ -1,2 +1,2 @@
-token="66556"
+token="666"
 ID_vedmedk0=666
