@@ -23,7 +23,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url="https://floating-brook-95237.herokuapp.com//bot")
+    bot.set_webhook(url="https://shrouded-chamber-29701/bot")
     return "!", 200
 
 server.run(host="0.0.0.0", port=os.environ.get('PORT', 5000))
